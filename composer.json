@@ -1,0 +1,24 @@
+{
+	"name": "n98/magerun1-dist",
+	"description": "n98-magerun1 Phar distribution",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/netz98/n98-magerun/issues"
+    },
+    "homepage": "http://netz98.github.com/n98-magerun/",
+    "keywords": [
+        "magento",
+        "installer",
+        "cli",
+        "magerun"
+    ],
+	"require": {
+		"php": ">=5.6.0"
+	},
+	"replace": {
+		"n98/magerun2": "self.version"
+	},
+	"bin": [
+		"n98-magerun"
+	]
+}
