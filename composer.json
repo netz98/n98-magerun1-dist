@@ -16,7 +16,7 @@
 		"php": ">=5.6.0"
 	},
 	"replace": {
-		"n98/magerun2": "self.version"
+		"n98/magerun": "self.version"
 	},
 	"bin": [
 		"n98-magerun"
